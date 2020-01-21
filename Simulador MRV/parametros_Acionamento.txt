@@ -1,0 +1,14 @@
+//Ângulos de início e término de acionamento da fase
+intervalo=30   // Intervalo de acionamento da fase
+on0=5         // Ângulo de ligamento da fase A
+on1=5         // Ângulo de ligamento da fase B
+on2=5         // Ângulo de ligamento da fase C
+off0=5        // Ângulo de desligamento da fase A
+off1=5        // Ângulo de desligamento da fase B
+off2=5        // Ângulo de desligamento da fase C
+//------------------------------------------------------------------------
+Soft_Hard=0     // (0=Soft / 1=Hard)
+//------------------------------------------------------------------------
+Controle_corrente_ON=1 // (Ligar controle de corrente)
+//------------------------------------------------------------------------
+Limita_Corrente=1         // Limitar corrente em 10 A

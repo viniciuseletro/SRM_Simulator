@@ -1,0 +1,29 @@
+Referencia_Velocidade=1000         // Referência de velocidade
+T_RefVel=0;                                    // Tempo da aplicação da referência
+Incremento_Refvel1=000               // Incremento de referência de velocidade 1
+T_IncRefvel1=0                              // Tempo do incremento de referência de velocidade 1
+Incremento_Refvel2=0                   // Incremento de referência de velocidade 2
+T_IncRefvel2=0                              // Tempo do incremento de referência de velocidade 2
+
+// Parâmetros do controlador RST
+
+//r0=2.123879523081377 
+//r1=-2.002935664464296
+r0=1.218765971251289
+r1=-1.173528372443193
+//r0=0.696059494162841 
+//r1=-0.678002495891979
+r2=0
+r3=0
+
+s0=1
+s1=-1
+s2=0
+s3=0
+
+//t0=0.120943858617080
+t0= 0.045237598808096
+//t0=0.018056998270862
+t1=0
+t2=0
+t3=0

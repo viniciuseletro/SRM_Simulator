@@ -1,0 +1,4 @@
+Ts_velocidade=0.01             // Tempo de amostragem da velocidade
+Ts_cor=0.00004                   // Tempo de amostragem da corrente
+
+Lin_NLin=1                  // (0=Perfil Linear / 1=Perfil Não-linear)

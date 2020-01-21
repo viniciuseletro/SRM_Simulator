@@ -1,0 +1,29 @@
+pi=3.14159265358979323846
+//-------------------------------------
+// Dados do MRV
+R=0.48;                                 // Resistência da máquina
+Lu=0.004                               // Indutância mínima
+La=0.016                               // Indutância máxima
+KL=(La-Lu)/(30*pi/180)         // Constante
+//-------------------------------------
+// Obtenção do momento de inércia do rotor (J)
+// e coeficiente de amortecimento (B)
+pondTorque=1              // Valor de ajuste para o torque
+Corr=3                          // Corrente obtida no ensaio
+tau=0.67                      // Tempo necessário para a velocidade
+                                     // atingir 63,2% da velocidade de regime permanente
+vel=1000                     // Velocidade de regime permanente
+w1=vel*pi/30              // Velocidade angular de regime permanente
+
+T=pondTorque*(Corr*Corr)*KL/2      // Torque para cálculo do J e B
+
+B=T/w1                       // Coeficiente de amortecimento
+J=B*tau                      // Momento de inércia do rotor
+
+//B=0.00147
+//J=0.0013
+
+
+
+
+

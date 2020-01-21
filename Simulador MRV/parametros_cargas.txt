@@ -1,0 +1,20 @@
+// Dados do Gerador CC
+Ra=0.133             // Resistência de armadura
+KB=0.054257       // Constante do gerador
+RL=2.78               // Dados da carga conectada ao gerador
+//-------------------------------------
+Gerador_CC = 0                    // (0: Desligado, 1: Ligado)
+Tempo_Gerador_CC = 99         // (Tempo que liga o gerador)
+//-------------------------------------
+Tempo_Falta1 = 2     // Tempo em que ocorre a falta (99 para não ocorrer a falta)
+Tempo_Falta2 = 99      // Tempo em que ocorre a falta (99 para não ocorrer a falta)
+Tempo_Falta3 = 99      // Tempo em que ocorre a falta (99 para não ocorrer a falta)
+//-------------------------------------
+Carga_linear = 0.00            // Valores entre 0 e 0.1
+Tempo_Carga_linear = 0    // Tempo em que a carga é inserida
+//-------------------------------------
+Carga_prop_velocidade =0.0000      // Valores entre 0 e 0.01
+Tempo_carga_prop = 0                     // Tempo em que a carga é inserida
+//-------------------------------------
+Carga_quad = 0                        // Valores entre 0 e 0.01
+Tempo_carga_quad = 0            // Tempo em que a carga é inserida
